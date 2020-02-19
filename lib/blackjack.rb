@@ -32,7 +32,8 @@ def initial_round
 end
 
 def hit? (user_response)
-  # code hit? here
+  user_response
+  get_user_input
 end
 
 def invalid_command
