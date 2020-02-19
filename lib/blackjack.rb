@@ -32,7 +32,7 @@ def initial_round
 end
 
 def hit? (user_response)
-  user_response
+  prompt_user
   get_user_input
 end
 
