@@ -31,7 +31,7 @@ def initial_round
   two_cards
 end
 
-def hit?
+def hit? (user_response)
   # code hit? here
 end
 
