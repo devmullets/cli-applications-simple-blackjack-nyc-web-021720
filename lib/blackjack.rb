@@ -33,8 +33,8 @@ end
 
 def hit? (user_response)
   prompt_user
-  
-  if get_user_input == "s"
+  user_says = get_user_input
+  if user_says == "s"
     puts "hi"
   end 
 end
