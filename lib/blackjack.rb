@@ -33,8 +33,10 @@ end
 
 def hit? (user_response)
   prompt_user
-  get_user_input
   
+  if get_user_input == "s"
+    puts "hi"
+  end 
 end
 
 def invalid_command
