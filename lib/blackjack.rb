@@ -34,7 +34,7 @@ end
 def hit? (user_response)
   prompt_user
   get_user_input
-  deal_card
+  initial_round
 end
 
 def invalid_command
