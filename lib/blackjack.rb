@@ -33,13 +33,7 @@ end
 
 def hit? (user_response)
   prompt_user
-  user_says = get_user_input
-    if user_says == "s"
-      initial_round
-    end
-    if user_says =="h"
-      deal_card
-    end
+  get_user_input
 end
 
 def invalid_command
